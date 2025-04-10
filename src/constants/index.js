@@ -60,7 +60,7 @@ export const EXPERIENCES = [
   {
     year: "Dec 2016 - Jun 2022",
     company: "ST Engineering",
-    role: "Stress Analyst",
+    role: "Aircraft Engineer",
     projects: [
       {
         title:

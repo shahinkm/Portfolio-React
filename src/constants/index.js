@@ -19,13 +19,13 @@ export const EXPERIENCES = [
       {
         title: "AI-Driven Document Question Answering for Aircraft Maintenance",
         description:
-          "Developed a question-answering application for aircraft maintenance documents using Retrieval-Augmented Generation (RAG). Utilized LangChain and LangGraph to create efficient workflows and designed a user-friendly interface with Streamlit.",
+          "Developed a full-stack question-answering application for aircraft maintenance documents using Retrieval-Augmented Generation (RAG). Built agentic workflows with LangChain and LangGraph, integrated AWS Bedrock (LLMs), S3 (file storage), and Postgres (chat history), and implemented the frontend using Next.js.",
         technologies: [
           "Python",
           "Gen AI",
           "LangChain",
           "LangGraph",
-          "Streamlit",
+          "Next.js",
           "RAG",
         ],
       },
@@ -60,7 +60,7 @@ export const EXPERIENCES = [
   {
     year: "Dec 2016 - Jun 2022",
     company: "ST Engineering",
-    role: "Stress Analyst",
+    role: "Aircraft Engineer",
     projects: [
       {
         title:

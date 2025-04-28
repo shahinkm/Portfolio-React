@@ -6,7 +6,7 @@ import {
   SiLangchain,
 } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
-import { RiReactjsLine } from "react-icons/ri";
+import { SiNextdotjs } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -58,7 +58,11 @@ const Technologies = () => {
           { Icon: SiHuggingface, color: "text-yellow-500", duration: 3 },
           { Icon: SiLangchain, color: "text-green-900", duration: 3.5 },
           { Icon: FaAws, color: "text-amber-500", duration: 4 },
-          { Icon: RiReactjsLine, color: "text-cyan-400", duration: 3 },
+          {
+            Icon: SiNextdotjs,
+            color: "text-white",
+            duration: 3,
+          },
         ].map(({ Icon, color, duration }, index) => (
           <motion.div
             key={index}
